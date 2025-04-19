@@ -16,7 +16,7 @@ body{
 .main{
 
 }
-
+/* HEADER*/
 .header{
     gap: 10px;  
     /* margin: 10px; */
@@ -30,6 +30,7 @@ body{
     width: 100%;
     background-color: white;
     overflow-x: none;
+    z-index: 999;
 }
 
  .nav ul{
@@ -64,4 +65,74 @@ a{
 
 .download-icon {
     width: 20px;
+}
+
+
+/*INTRO PART*/
+.intro{
+display: flex;
+gap: 50px;
+margin:100px;
+margin-bottom:50px;
+
+justify-content: space-around;
+align-items: center;
+}
+.intro-image{
+    
+}
+.debanik-image{
+    width: 400px;
+    border: inset 1px rgba(0,0,0,0);
+    border-radius: 1000px;
+}
+
+h1{
+    color: rgb(8, 238, 238);
+    font-size:100px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+
+/* SKILLS PARTT */
+ 
+.skills{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.heading{
+    margin-left: 100px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.skill-box{
+border: 10px solid white;
+background-color: white;
+padding: 10px;
+align-items: center;
+width: 170px;
+height: 170px;
+transition: 0.5s;
+}
+
+.skill-box:hover{
+    width: 190px;
+    height: 190px;
+    transition: 0.5s;
+}
+
+.skill-box img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
 }
