@@ -66,8 +66,14 @@ a{
     border-radius: 20px;
     background-color: rgb(19, 19, 19, 0);
     display: flex;
-    width: 204.73px;
+    width: 250.73px;
+    /* justify-content: space-between; */
+    gap:0px
     
+}
+
+.download-text{
+    width: 500px;
 }
 .icon{
     height: 30px;
@@ -151,7 +157,8 @@ a{
 }
 
 .download-icon {
-    width: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 
